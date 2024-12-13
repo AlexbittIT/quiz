@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    text-align: center;
+}
+
+#clickButton {
+    font-size: 24px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#clickButton:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #28a745;
+}
